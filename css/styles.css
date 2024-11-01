@@ -1,19 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    margin: 15px 0;
+}
+
+nav p {
+    margin-bottom: 5px;
+}
+
+#littlenote {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
 .main-container {
     display: flex;
     flex-direction: row;
-    gap: 20px; /* jarak antar kolom */
+    gap: 15px; /* jarak antar kolom */
 }
 
 .calculator { 
     flex: 1;
     padding: 15px;
-    background-color: #f5f5f5;
+    background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .result {
     flex: 1;
     padding: 15px;
-    background-color: #e8f4f8;
+    background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculate-form {
+    background-color: #F5EDDC;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
 }

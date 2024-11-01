@@ -10,7 +10,9 @@
     <body>
         <header>
             <nav>
-                
+                <img src="assets/healthcare.png" alt="logo healthcare" width="60px" height="60px">
+                <p>BMI <em>(Body Mass Index)</em> Kalkulator Online</p>
+                <p id="littlenote">Dinas Kesehatan, Kebugaran, Keamanan, Ketahanan Jiwa dan Raga Republik Wakanda</p>
             </nav>
         </header>
         <main class="main-container">
@@ -23,14 +25,21 @@
                     </header>
     
                     <article>
-                        <p>Capai Tubuh Impianmu dengan BMI Ideal! Ingin merasa lebih percaya diri dan berenergi? Mulailah dengan langkah kecil, hitung BMI-mu sekarang! Dengan BMI yang baik, kamu lebih dekat untuk meraih tubuh sehat dan bugar. Yuk, mulai gaya hidup aktif dan konsumsi makanan bergizi! #BMIsehat #tubuhideal #hidupsehat</p>
+                        <p>Capai Tubuh Impianmu dengan BMI Ideal! Ingin merasa lebih percaya diri dan berenergi? Mulailah dengan langkah kecil, hitung BMI-mu sekarang! Dengan BMI yang baik, kamu lebih dekat untuk meraih tubuh sehat dan bugar. Yuk, mulai gaya hidup aktif dan konsumsi makanan bergizi!</p> 
+                        <p>#BMIsehat #tubuhideal #hidupsehat</p>
                     </article>
                 </div>
                 
                 <!-- Calculate Form -->
                 <div>
-                    <form>
-
+                    <form class="calculate-form">
+                        <legend>Jenis Kelamin</legend>
+                        <label for="gender">
+                            <input id="gender" type="radio" name="gender" value="male" checked> Pria
+                            <input id="gender" type="radio" name="gender" value="female"> Wanita
+                        <label for="your-weight">
+                            <input id="your-weight" type="number" name="weight">
+                        </label>
                     </form>
                 </div>
 

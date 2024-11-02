@@ -51,8 +51,8 @@
                         <p>Lihat cara perhitungan berat dan tinggi badan sesuai saran kesehatan <a href="#" style="color:dodgerblue">disini</a>.</p>
                         
                         <div class="clearfix">
-                            <button type="submit" class="btnsubmit">Hitung BMI</button>
-                            <button type="button" class="btnreset">Reset</button>
+                            <button type="button" class="btnsubmit" onclick="calculateBMI()">Hitung BMI</button>
+                            <button type="button" class="btnreset" onclick="resetBMI()">Reset</button>
                         </div>
                     </form>
                 </div>
@@ -71,7 +71,6 @@
 
                     <article>
                         <p>Kalkulator BMI ini dirancang untuk orang dewasa berusia 18 hingga 65 tahun. Hasil mungkin kurang akurat jika digunakan oleh anak-anak, remaja, lansia di atas 65 tahun, serta ibu hamil atau menyusui</p>
-                        <p>Kalkulator ini ideal untuk orang sehat tanpa kondisi medis khusus. Orang dengan gangguan metabolisme atau penyakit tertentu sebaiknya berkonsultasi dengan dokter sebelum menggunakan hasil BMI sebagai acuan</p>
                     </article>
                 </div>
             </section>
@@ -91,17 +90,6 @@
                     <p id="note-resultbmi"><strong>Note</strong>: BMI ideal berkisar antara 18.5 - 24.9, menunjukkan berat badan sehat yang mendukung kesehatan dan keseimbangan tubuh optimal</p>
                 </div>
 
-                <!-- Explanation Of Result -->
-                <div>
-                    <article>
-
-                    </article>
-
-                    <article>
-
-                    </article>
-                </div>
-
                     <!-- The Last Section, Before Footer -->
                 <div class="lastsec">
                     <!-- Explanation If Obesity -->
@@ -119,10 +107,15 @@
                         </ul>
                     </article>
                     <div class="clearfix">
-                        <button class="btnbottom" type="button">Konsultasi Dokter</button>
-                        <button class="btnbottom" type="button">Ikuti Program Kebugaran</button>
+                        <button class="btnbottom" type="button" onclick="window.location.href='https://www.halodoc.com/';">Konsultasi Dokter</button>
+                        <button class="btnbottom" type="button" onclick="window.location.href='https://www.halodoc.com/';">Ikuti Program Kebugaran</button>
                     </div>
                 </div>
+
+                <article>
+                    <p>Kalkulator ini ideal untuk orang sehat tanpa kondisi medis khusus. Orang dengan gangguan metabolisme atau penyakit tertentu sebaiknya berkonsultasi dengan dokter sebelum menggunakan hasil BMI sebagai acuan</p>
+                    <p>Hindari mendiagnosis sendiri. Konsultasikan keluhan kesehatan dengan profesional medis agar mendapatkan penanganan yang tepat dan aman</p>
+                </article>
             </section>
         </main>
 
@@ -131,5 +124,7 @@
             <img src="assets/groupapps.png">
             <p>&copy; 2024 Kalkulator BMI. Semua Hak Dilindungi.</p>
         </footer>
+
+        <script src="js/script.js"></script>
     </body>
 </html>

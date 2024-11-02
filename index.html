@@ -58,13 +58,20 @@
                 </div>
 
                 <!-- Explain About Fitur and Term -->
-                <div>
-                    <header>
-                        <h2>Keunggulan Fitur</h2>
-                    </header>
-    
+                <div>    
                     <article>
-    
+                        <h3>Keunggulan Fitur</h3>
+                        <ol>
+                            <li><strong>Cepat dan Akurat</strong>: Hitung BMI hanya dalam hitungan detik</li>
+                            <li><strong>Mudah Digunakan</strong>: Antarmuka sederhana dan ramah pengguna</li>
+                            <li><strong>Panduan Kesehatan</strong>: Dapatkan saran untuk mencapai target kesehatan Anda</li>
+                            <li><strong>Privasi Terjaga</strong>: Tanpa registrasi, data Anda aman dan tidak disimpan</li>
+                        </ol>
+                    </article>
+
+                    <article>
+                        <p>Kalkulator BMI ini dirancang untuk orang dewasa berusia 18 hingga 65 tahun. Hasil mungkin kurang akurat jika digunakan oleh anak-anak, remaja, lansia di atas 65 tahun, serta ibu hamil atau menyusui</p>
+                        <p>Kalkulator ini ideal untuk orang sehat tanpa kondisi medis khusus. Orang dengan gangguan metabolisme atau penyakit tertentu sebaiknya berkonsultasi dengan dokter sebelum menggunakan hasil BMI sebagai acuan</p>
                     </article>
                 </div>
             </section>
@@ -73,13 +80,15 @@
             <section class="container result">
                 <header>
                     <h1>Hasil BMI</h1>
+                    <p>Kalkulator ini berfungsi sebagai alat sederhana untuk memantau status berat badan. Hasil BMI yang diperoleh hanya merupakan panduan umum dan tidak dimaksudkan sebagai diagnosa medis.</p>
+                    <p>Untuk penilaian kesehatan yang komprehensif, konsultasi dengan profesional kesehatan seperti dokter atau ahli gizi sangat disarankan</p>
                 </header>
 
                 <!-- Show The Result -->
-                <div>
-                    <form>
-
-                    </form>
+                <div class="resultbmi">
+                    <p id="text-resultbmi">Berat badan</p>
+                    <p id="number-resultbmi">00.00</p>
+                    <p id="note-resultbmi"><strong>Note</strong>: BMI ideal berkisar antara 18.5 - 24.9, menunjukkan berat badan sehat yang mendukung kesehatan dan keseimbangan tubuh optimal</p>
                 </div>
 
                 <!-- Explanation Of Result -->
@@ -94,20 +103,33 @@
                 </div>
 
                     <!-- The Last Section, Before Footer -->
-                <div>
+                <div class="lastsec">
                     <!-- Explanation If Obesity -->
                     <article>
-
+                        <h3>Penyakit Dengan BMI Berlebih</h3>
+                        <ul>
+                            <li>Penyakit Jantung: Risiko tinggi terhadap hipertensi dan stroke</li>
+                            <li>Sleep Apnea: Gangguan tidur karena jalur napas terhambat</li>
+                            <li>Gangguan Pencernaan: Masalah seperti refluks asam dan batu empedu</li>
+                            <li>Kesehatan Mental: Kecemasan, depresi, dan rendahnya kepercayaan diri</li>
+                            <li>Gangguan Pencernaan: Masalah seperti refluks asam dan batu empedu</li>
+                            <li>Osteoartritis: Tekanan ekstra pada sendi menyebabkan peradangan dan nyeri</li>
+                            <li>Hati Berlemak: Lemak menumpuk di hati, memicu peradangan dan kerusakan</li>
+                            <li>Dan lainnya</li>
+                        </ul>
                     </article>
-
-                    <button></button>
-                    <button></button>
+                    <div class="clearfix">
+                        <button class="btnbottom" type="button">Konsultasi Dokter</button>
+                        <button class="btnbottom" type="button">Ikuti Program Kebugaran</button>
+                    </div>
                 </div>
             </section>
         </main>
 
         <footer>
-
+            <p><strong>Download Aplikasi Sekarang</strong></p>
+            <img src="assets/groupapps.png">
+            <p>&copy; 2024 Kalkulator BMI. Semua Hak Dilindungi.</p>
         </footer>
     </body>
 </html>

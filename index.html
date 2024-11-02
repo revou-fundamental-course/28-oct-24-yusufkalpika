@@ -37,9 +37,23 @@
                         <label for="gender">
                             <input id="gender" type="radio" name="gender" value="male" checked> Pria
                             <input id="gender" type="radio" name="gender" value="female"> Wanita
-                        <label for="your-weight">
-                            <input id="your-weight" type="number" name="weight">
                         </label>
+
+                        <label for="your-weight">Berat Badan (kg)</label>
+                        <input id="your-weight" type="number" name="weight" min="0" required>
+                        
+                        <label for="your-age">Usia (tahun)</label>
+                        <input id="your-age" type="number" name="age" min="0" required>
+
+                        <label for="your-height">Tiggi Badan (cm)</label>
+                        <input id="your-height" type="number" name="height" min="0" required>
+
+                        <p>Lihat cara perhitungan berat dan tinggi badan sesuai saran kesehatan <a href="#" style="color:dodgerblue">disini</a>.</p>
+                        
+                        <div class="clearfix">
+                            <button type="submit" class="btnsubmit">Hitung BMI</button>
+                            <button type="button" class="btnreset">Reset</button>
+                        </div>
                     </form>
                 </div>
 

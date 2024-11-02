@@ -2,17 +2,26 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    top: 0;
+    background-color: white;
+}
 
 nav {
+    background-color: white;
     font-size: 20px;
     text-align: center;
     padding: 10px;
-    position: sticky;
-    margin: 15px 0;
+    margin-bottom: 15px;
 }
 
 nav p {
     margin-bottom: 5px;
+}
+
+main p {
+    line-height: 1.3;
+    text-align: justify;
 }
 
 #littlenote {
@@ -24,7 +33,7 @@ nav p {
 .main-container {
     display: flex;
     flex-direction: row;
-    gap: 15px; /* jarak antar kolom */
+    gap: 15px; 
 }
 
 .calculator { 
@@ -44,9 +53,57 @@ nav p {
 .calculate-form {
     background-color: #F5EDDC;
     margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 label {
     display: block;
     margin: 0.5rem 0;
+}
+
+input[type=radio] {
+    margin: 5px 0 20px 5px;
+    display: inline-block;  
+}
+
+input[type=number] {
+    width: 95%;
+    padding: 14px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+    border-radius: 10px;
+}
+
+.clearfix {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+button {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity:1;
+}
+  
+.btnsubmit {
+    padding: 14px 20px;
+    background-color: #04AA6D;
+    border-radius: 10px;
+}
+
+.btnreset {
+    padding: 14px 20px;
+    background-color: #f44336;
+    border-radius: 10px;
 }

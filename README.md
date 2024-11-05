@@ -15,3 +15,6 @@ Jadi, buat yang belum tahu, BMI (Body Mass Index) itu semacam ukuran yang bantu 
 
 Kalkulator ini emang cocok buat semua orang dewasa yang pengen tahu status BMI-nya. Tapi, tetap ingat ya, ini cuma buat panduan, bukan alat diagnosa. Jadi, kalau punya keluhan atau pengen tahu lebih lanjut, lebih baik tetap konsultasi ke ahli kesehatan.
 Cobain, yuk! Siapa tahu dari sini, kamu bisa mulai hidup lebih sehat dan bugar. Let’s get that ideal body!
+<hr>
+Dibuat oleh : Dresthia Yusuf Kalpika Wiratama
+Untuk memenuhi tugas mini project <strong>RevoU Fundamental Course Software Engineering</strong>

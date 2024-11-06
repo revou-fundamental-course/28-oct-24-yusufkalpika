@@ -36,14 +36,7 @@ main p, li {
     gap: 15px; 
 }
 
-.calculator { 
-    flex: 1;
-    padding: 15px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.result {
+.calculator, .result { 
     flex: 1;
     padding: 15px;
     background-color: white;
@@ -62,13 +55,14 @@ label {
     margin: 0.5rem 0;
 }
 
-input[type=radio] {
+.calculate-form input[type=radio] {
     margin: 5px 0 20px 5px;
     display: inline-block;  
 }
 
-input[type=number] {
-    width: 95%;
+.calculate-form input[type=number] {
+    width: 100%;
+    box-sizing: border-box;
     padding: 14px;
     margin: 5px 0 10px 0;
     display: inline-block;
@@ -164,3 +158,8 @@ footer {
 footer img {
     width: 50%;
 }
+
+@media only screen and (max-width: 600px) {
+    .main-container {
+        flex-direction: column;
+    }

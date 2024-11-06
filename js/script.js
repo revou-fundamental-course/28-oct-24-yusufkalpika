@@ -10,7 +10,7 @@ function calculateBMI() {
         ageInput.style.backgroundColor = "red"; // mengubah border menjadi merah
         return; // menghentikan proses jika usia tidak valid
     } else {
-        ageInput.style.backgroundColor = ""; // valid
+        ageInput.style.backgroundColor = ""; // jika valid
     }
 
     if (weight && height) {
@@ -22,7 +22,7 @@ function calculateBMI() {
         document.getElementById("number-resultbmi").textContent = bmi.toFixed(2);
 
         // kategori BMI
-        let kategori;
+        let kategori; // const error! kategori pakai let
         if (bmi < 18.5) {
             kategori = "KURANG";
         } else if (bmi >= 18.5 && bmi <= 24.9) {
